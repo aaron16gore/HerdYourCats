@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HerdYourCats.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc44b28cec149d05b47a6786778c4f0ad5499185")]
 [assembly: System.Reflection.AssemblyProductAttribute("HerdYourCats.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HerdYourCats.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
