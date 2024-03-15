@@ -26,7 +26,7 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.UseStaticFiles(new StaticFileOptions { RequestPath = "" });
+app.UseStaticFiles(new StaticFileOptions { RequestPath = "./HerdYourCats2.Web/src/routes/+layout.svelte" });
 
 bool IsSiteRequest(HttpContext context) => !context.Request.Path.StartsWithSegments("/api");
 
