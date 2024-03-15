@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hyc.MsPoc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+954f427d3a5c3f1cd791db585dbe1f3f5dc24dbe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08bdcf9f59de15e3dcb23b7c953c69c7b52c48bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hyc.MsPoc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hyc.MsPoc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

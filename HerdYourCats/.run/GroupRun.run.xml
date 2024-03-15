@@ -1,7 +1,0 @@
-﻿<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="GroupRun" type="CompoundRunConfigurationType">
-    <toRun name="Hyc.MsPoc: IIS Express" type="LaunchSettings" />
-    <toRun name="Hyc.Web: IIS Express" type="LaunchSettings" />
-    <method v="2" />
-  </configuration>
-</component>
