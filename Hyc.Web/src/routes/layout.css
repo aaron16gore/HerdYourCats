@@ -1,7 +1,0 @@
-.app {
-    background-color: grey;
-    
-    & .test {
-        margin-top: 20px;   
-    }
-}

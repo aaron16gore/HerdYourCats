@@ -7,7 +7,7 @@
     @import './global-styles.css';
 
     .container {
-        padding-top: var(--page-header-height);
+        padding-top: var(--top-nav-header-height);
     }
 </style>
 

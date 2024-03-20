@@ -21,6 +21,7 @@
   },
   "type": "module",
   "dependencies": {
+    "prettier": "^3.2.5",
     "svelte-preprocess": "^5.1.3"
   }
 }

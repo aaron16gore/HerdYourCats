@@ -1,3 +1,22 @@
 :root {
-    --page-header-height: 20rem;
+    /*Z-Indexs*/
+    --top-nav-header-z-index: 10000;
+
+    /*Measurements*/
+    --top-nav-header-height: 3rem;
+    --base-drawer-header-height: 5rem;
+
+    /*Fonts*/
+    --hys-font-family: Arial, Helvetica, sans-serif;
+
+
+    /*Colours*/
+    --hys-primary-color: #28434A;
+    --hys-primary-color-light: #5F8B92;
+
+    --hys-primary-color-red: #DB6786;
+
+    --hys-background-color: #DFF5F3;
+
+    --hys-white-color: "white;"
 }
