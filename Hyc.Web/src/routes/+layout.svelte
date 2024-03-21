@@ -1,14 +1,17 @@
 ﻿<script lang="ts">
     import TopNavHeader from "$components/headers/TopNavHeader.svelte";
     import BaseDrawer from "$components/drawers/BaseDrawer.svelte";
+    import TopNavMenuDropDown from "$components/drawers/TopNavMenuDropDown.svelte";
     import { onMount, getContext } from "svelte";
     import baseDrawerStore from '$stores/baseDrawerStore';
 
     let isBaseDrawerOpen: boolean = false;
-
+    
     baseDrawerStore.subscribe((o) => {
 		isBaseDrawerOpen = o;
 	});
+
+
 </script>
 
 <style lang="css" src="./+layout.css"></style>
@@ -22,7 +25,8 @@
             <TopNavHeader />
         </header>
         <main>
-            <BaseDrawer bind:isOpen={isBaseDrawerOpen}/>
+            <!-- <BaseDrawer bind:isOpen={isBaseDrawerOpen}/> -->
+            <TopNavMenuDropDown bind:isOpen={isBaseDrawerOpen}/>
         </main>
     </body>
 </html>

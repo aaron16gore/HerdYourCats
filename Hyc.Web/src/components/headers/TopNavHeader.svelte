@@ -3,6 +3,7 @@
 	import BaseDrawer from '$components/drawers/BaseDrawer.svelte';
 	import baseDrawerStore from '$stores/baseDrawerStore';
 	import IBaseDrawer from '$stores/baseDrawerStore';
+	import {MenuItem} from '$components/drawers/drawerObjects';
 
     let isMenuOpen:  boolean = false;
 
