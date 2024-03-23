@@ -18,6 +18,7 @@ const config = {
         alias: {
             '$routes': './src/routes',
             '$components': './src/components',
+            '$bcl': './src/components/base-component-library/',
             '$models': './src/models',
             '$stores': './src/stores',
             '$services': './src/services',
