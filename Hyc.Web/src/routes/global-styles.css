@@ -1,22 +1,33 @@
 :root {
+    /*Icons*/
+    @import '~@fortawesome/fontawesome-free/css/all.css';
+    
     /*Z-Indexs*/
     --top-nav-header-z-index: 10000;
 
     /*Measurements*/
     --top-nav-header-height: 3rem;
     --base-drawer-header-height: 5rem;
+    --base-canvas-height: calc(100vh - var(--top-nav-header-height) - var(--base-drawer-header-height) - 0.33rem); /* Use height instead of min-height */
 
     /*Fonts*/
     --hys-font-family: Arial, Helvetica, sans-serif;
 
 
     /*Colours*/
-    --hys-primary-color: #28434A;
-    --hys-primary-color-light: #5F8B92;
+    --hys-primary-color: #233B35;
+    --hys-primary-color-light: #5F897A;
+    --hys-primary-color-red: #8E1143;
+    --hys-background-color: var(--hys-primary-color-9);
+    --hys-white-color: "white";
 
-    --hys-primary-color-red: #DB6786;
-
-    --hys-background-color: #DFF5F3;
-
-    --hys-white-color: "white;"
+    --hys-primary-color-1: #E1F5E8;
+    --hys-primary-color-2: #C5EBD6;
+    --hys-primary-color-3: #94C4AE;
+    --hys-primary-color-4: #5F897A;
+    --hys-primary-color-5: #233B35;
+    --hys-primary-color-6: #19322E;
+    --hys-primary-color-7: #112A29;
+    --hys-primary-color-8: #0B2122;
+    --hys-primary-color-9: #06191C;
 }

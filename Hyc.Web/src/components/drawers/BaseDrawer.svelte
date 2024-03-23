@@ -49,8 +49,8 @@
         & .body {
             position: absolute;
             background-color: var(--hys-white-color);
-            height: calc(100vh - var(--top-nav-header-height) - var(--base-drawer-header-height) - 0.33rem); /* Use height instead of min-height */
-            width: 100%; /* Use width instead of min-width */
+            height: var(--base-canvas-height);
+            width: 100%;
             overflow: auto;
         }
     }

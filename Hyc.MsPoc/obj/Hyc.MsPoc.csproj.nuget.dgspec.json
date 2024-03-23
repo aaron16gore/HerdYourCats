@@ -10,14 +10,14 @@
         "projectUniqueName": "C:\\CodingProjects\\HerdYourCats\\Hyc.MsPoc\\Hyc.MsPoc.csproj",
         "projectName": "Hyc.MsPoc",
         "projectPath": "C:\\CodingProjects\\HerdYourCats\\Hyc.MsPoc\\Hyc.MsPoc.csproj",
-        "packagesPath": "C:\\Users\\Aaron.Gore\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\aaron\\.nuget\\packages\\",
         "outputPath": "C:\\CodingProjects\\HerdYourCats\\Hyc.MsPoc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Aaron.Gore\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aaron\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,11 +27,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "http://10.0.1.20:8082/chocolatey": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.pkg.github.com/TAG-APAC-Division/index.json": {},
-          "https://nuget.syncfusion.com/nuget_aspnet/nuget/getsyncfusionpackages/aspnet": {},
-          "https://nuget.syncfusion.com/nuget_aspnetmvc/nuget/getsyncfusionpackages/aspnetmvc": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {

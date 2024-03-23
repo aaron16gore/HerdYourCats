@@ -21,6 +21,7 @@
   },
   "type": "module",
   "dependencies": {
+    "@microsoft/signalr": "^8.0.0",
     "prettier": "^3.2.5",
     "svelte-preprocess": "^5.1.3"
   }
