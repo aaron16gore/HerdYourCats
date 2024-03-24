@@ -14,7 +14,7 @@ builder.Services.AddSpaStaticFiles(options => options.RootPath = "./svelte-kit/o
 builder.Services.AddCors(c =>
 {
     c.AddPolicy("CorsPolicy", builder => builder
-        .WithOrigins("http://localhost:5173", "http://localhost:5174")
+        .WithOrigins("http://localhost:5000", "http://localhost:5174")
         .AllowAnyMethod()
         .AllowAnyHeader()
         .AllowCredentials());
