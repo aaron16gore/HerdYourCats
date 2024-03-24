@@ -1,8 +1,8 @@
 <script lang="ts">
-   
+    import StandupApp from "../../components/application-views/StandupApp.svelte";
 </script>
 
 <style>
 </style>
 
-<div>Stand Up Page</div>
+<StandupApp></StandupApp>
