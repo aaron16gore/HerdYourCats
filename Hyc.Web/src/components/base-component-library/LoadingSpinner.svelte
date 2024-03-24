@@ -8,7 +8,6 @@
 
 <div class="icon-container">
     <i class={className}></i>
-    {iconSize}
 </div>
 
 <style lang="css">

@@ -6,9 +6,10 @@
     import baseDrawerStore from "$stores/baseDrawerStore";
     import connection from "$services/signalr";
     import "@fortawesome/fontawesome-free/css/all.min.css";
-    import PauseBackgroundOverlay from '$bcl/PauseBackgroundOverlay.svelte';
+    import LoadingOverlay from '$bcl/LoadingOverlay.svelte';
 
     let isBaseDrawerOpen: boolean = false;
+    let toggleTest: boolean = false;
 
     baseDrawerStore.subscribe((o) => {
         isBaseDrawerOpen = o;
@@ -63,7 +64,7 @@
         <main>
             <!-- <BaseDrawer bind:isOpen={isBaseDrawerOpen}/> -->
             {#if pauseOverlayIsActive}
-                <PauseBackgroundOverlay></PauseBackgroundOverlay>
+                <LoadingOverlay></LoadingOverlay>
             {/if}
             <slot />
         </main>
@@ -83,7 +84,7 @@
 
     main {
         margin-top: var(--top-nav-header-height);
-        min-height: 100%;
+        height: var(--base-canvas-height);
         min-width: 100%;
         position: absolute;
         color: var(--hys-primary-color-1);

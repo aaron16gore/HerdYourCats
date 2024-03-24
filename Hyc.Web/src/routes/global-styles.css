@@ -7,9 +7,14 @@
     
     /*Z-Indexs*/
     --top-nav-header-z-index: 10000;
+    /* Page/App Layers */
+    /* Page/App Layers are numbered with 1 being highest towards the top of the page*/
+    --page-z-index-1: 8900;
+    --page-z-index-2: 8800;
+    --page-z-index-3: 8700;
 
     /*Measurements*/
-    --top-nav-header-height: 5rem;
+    --top-nav-header-height: 10rem;
     --base-footer-height: 2rem;
     --base-drawer-header-height: 5rem;
     --base-canvas-height: calc(100vh - var(--top-nav-header-height));
