@@ -1,4 +1,7 @@
 :root {
+    /*MobileThresholds*/
+    --mobile-width-default: 700px;
+
     /*Icons*/
     @import '~@fortawesome/fontawesome-free/css/all.css';
     
@@ -6,12 +9,14 @@
     --top-nav-header-z-index: 10000;
 
     /*Measurements*/
-    --top-nav-header-height: 3rem;
+    --top-nav-header-height: 5rem;
+    --base-footer-height: 2rem;
     --base-drawer-header-height: 5rem;
-    --base-canvas-height: calc(100vh - var(--top-nav-header-height) - var(--base-drawer-header-height) - 0.33rem); /* Use height instead of min-height */
+    --base-canvas-height: calc(100vh - var(--top-nav-header-height));
 
     /*Fonts*/
     --hys-font-family: Arial, Helvetica, sans-serif;
+    --hys-font-size: 1rem;
 
 
     /*Colours*/
@@ -30,4 +35,24 @@
     --hys-primary-color-7: #112A29;
     --hys-primary-color-8: #0B2122;
     --hys-primary-color-9: #06191C;
+
+    --hys-success-color-1: #E3FAD7;
+    --hys-success-color-2: #C2F6B2;
+    --hys-success-color-3: #94E385;
+    --hys-success-color-4: #68C960;
+    --hys-success-color-5: #33A535;
+    --hys-success-color-6: #258D30;
+    --hys-success-color-7: #19762B;
+    --hys-success-color-8: #105F26;
+    --hys-success-color-9: #094F23;
+
+    --hys-info-color-1: #CAF9FD;
+    --hys-info-color-2: #97EEFC;
+    --hys-info-color-3: #62D8F6;
+    --hys-info-color-4: #3BBDED;
+    --hys-info-color-5: #0097E2;
+    --hys-info-color-6: #0075C2;
+    --hys-info-color-7: #0057A2;
+    --hys-info-color-8: #003E83;
+    --hys-info-color-9: #002C6C;
 }

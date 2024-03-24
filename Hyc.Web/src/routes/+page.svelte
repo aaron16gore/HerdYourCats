@@ -4,9 +4,14 @@
     import Canvas from "../components/canvases/Canvas.svelte";
 </script>
 
-<style>
+<style lang="css">
     @import './global-styles.css';
+
+    .page {
+        height: var(--base-canvas-height);
+    }
 </style>
 
-<AppSelectBoard/>
-
+<div class="page">
+    <AppSelectBoard/>
+</div>

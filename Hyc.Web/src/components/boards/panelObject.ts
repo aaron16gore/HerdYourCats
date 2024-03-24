@@ -1,13 +1,13 @@
 export class PanelObject {
     title: string = "Placeholder Title";
-    content: string = "Placholder Content";
+    label: string = "Placholder Label";
     icon: string = "fa-lightbulb";
-    destination: string = "/stand-up";
+    panelAction: () => void;
     
-    constructor(icon: string, title: string, content: string, destination: string) {
+    constructor(icon: string, label: string, description: string, panelAction: () => void) {
         this.icon = icon;
-        this.title = title;
-        this.content = content;
-        this.destination = destination;
+        this.title = label;
+        this.description = description;
+        this.panelAction = panelAction;
     }
 }

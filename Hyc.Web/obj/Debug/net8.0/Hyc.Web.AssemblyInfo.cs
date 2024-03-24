@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hyc.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ecdb7b6652f2555186d6f1e73674b9cbf37143dc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1ddf66e00d9773a762a88b578d80f3e4b8277bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hyc.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hyc.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
